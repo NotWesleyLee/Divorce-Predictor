@@ -1,2 +1,3 @@
 # Divorce-Predictor
-Using a variety of machine learning algorithms, develop a machine model that can best determine whether a marriage will end in a divorce.
+We created a machine learning models that can predict a divorce using a 53 question long questionnaire. We trained on a dataset with 54 features and 170 values, and utilized Pearson correlation to determine the most valuable features. We used the top four more relevant features and re-applied them to the machine algorithms; finding that there was no significant change to the overall accuracy of each model. We ultimately concluded that an adaptive boosting algorithm would be our best fit. Using this machine model, couples can see the likelihood that their relationship will end in a divorce.
+The dataset we trained all models on was provided from UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/Divorce+Predictors+data+set
